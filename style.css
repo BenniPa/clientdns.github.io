@@ -1,24 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 header {
 
     text-align: center;
-    position: inherit;
+    position: relative;
+    margin: -10px -10px 75px;
     border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: 2px 2px;
+    border-radius: 3px;
 }
 
 header p {
 
-    padding-right: 0;
     color: black;
-}
-
-header p:hover {
-
-    opacity: 50%;
-    transition: opacity 0.15s ease-in-out;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -28,16 +23,7 @@ h1 {
     position: relative;
     font-size: 40px;
     text-decoration: none;
-    font-family: 'Mulish', sans-serif;
-}
-
-body p {
-
-    text-align: center;
-    position: relative;
-    font-size: 30px;
-    text-decoration: none;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 ::selection {

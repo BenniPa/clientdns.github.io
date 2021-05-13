@@ -1,29 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 body {
 
-    background-color: #3b3b3b;
+    background-color: #004040;
 }
 
-header {
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #b6a38f;
+p {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Mulish', sans-serif;
 }
 
 ::selection {
-
-    color: currentColor;
-    background-color: #3B3B3BFF;
-}
-
-.clickItButton {
-
-    margin-left: 900px;
-    padding: 5px 15px;
-}
-
-.clickItButton:hover {
-
-    color: white;
-    background-color: black;
+    background-color: rgba(21, 108, 194, 0.58);
 }

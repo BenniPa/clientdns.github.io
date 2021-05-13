@@ -1,17 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-body {
+header {
 
-    background-color: #004040;
+    text-align: center;
+    position: inherit;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
 }
 
-p {
+header p {
+
+    padding-right: 0;
+    color: black;
+}
+
+header p:hover {
+
+    opacity: 50%;
+    transition: opacity 0.15s ease-in-out;
+}
+
+h1 {
+
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body p {
+
     text-align: center;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
+    text-decoration: none;
     font-family: 'Mulish', sans-serif;
 }
 
 ::selection {
+
     background-color: rgba(21, 108, 194, 0.58);
 }

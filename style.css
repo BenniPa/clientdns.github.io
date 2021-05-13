@@ -5,28 +5,20 @@ header {
     text-align: center;
     position: relative;
     margin: -10px -10px 75px;
+    background-color: dodgerblue;
     border: 3px solid black;
-    border-radius: 3px;
 }
 
-header p {
+header h1 {
 
     color: black;
     font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1 {
+header ::selection {
 
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-    font-size: 40px;
-    text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-::selection {
-
-    background-color: rgba(21, 108, 194, 0.58);
+    background-color: rgba(21, 118, 213, 0.58);
 }

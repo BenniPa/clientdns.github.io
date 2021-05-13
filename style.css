@@ -1,0 +1,29 @@
+body {
+
+    background-color: #3b3b3b;
+}
+
+header {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b6a38f;
+}
+
+::selection {
+
+    color: currentColor;
+    background-color: #3B3B3BFF;
+}
+
+.clickItButton {
+
+    margin-left: 900px;
+    padding: 5px 15px;
+}
+
+.clickItButton:hover {
+
+    color: white;
+    background-color: black;
+}

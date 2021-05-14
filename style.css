@@ -1,24 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
-header {
+body {
 
-    text-align: center;
-    position: relative;
-    margin: -10px -10px 75px;
-    background-color: dodgerblue;
-    border: 3px solid black;
+    background-color: rgba(40, 40, 40, 1);
 }
 
-header h1 {
+body h1 {
+
+    font-size: 30px;
+    position: relative;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+a {
+
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+a:hover {
+
+    color: gray;
+    transition: color 0.25s ease-in-out;
+}
+
+body p {
+
+    font-size: 17px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body header ::selection {
+
+    color: white;
+    background-color: gray;
+}
+
+body ::selection {
 
     color: black;
-    font-size: 25px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-header ::selection {
-
-    background-color: rgba(21, 118, 213, 0.58);
+    background-color: white;
 }

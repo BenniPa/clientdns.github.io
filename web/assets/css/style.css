@@ -29,6 +29,12 @@ a {
     transition: color 0.10s ease-in-out;
 }
 
+.germany:hover {
+
+    color: #6F4E37;
+    transition: color 0.10s ease-in-out;
+}
+
 .minecraft:hover {
 
     color: #75ad47;

@@ -8,7 +8,6 @@ body {
 body h1 {
 
     font-size: 30px;
-    position: relative;
     margin-top: 250px;
     margin-bottom: 50px;
     text-align: center;
@@ -24,16 +23,45 @@ a {
     font-family: 'Comfortaa', sans-serif;
 }
 
-a:hover {
+.github:hover {
 
-    color: gray;
-    transition: color 0.25s ease-in-out;
+    color: #161b22;
+    transition: color 0.10s ease-in-out;
+}
+
+.minecraft:hover {
+
+    color: #75ad47;
+    transition: color 0.10s ease-in-out;
+}
+
+.network:hover {
+
+    color: #5555ff;
+    transition: color 0.10s ease-in-out;
+}
+
+.java:hover {
+
+    color: #f8981d;
+    transition: color 0.10s ease-in-out;
+}
+
+.spigot:hover {
+
+    color: #e39a0d;
+    transition: color 0.10s ease-in-out;
+}
+
+.bungeecord:hover {
+
+    color: #d5b754;
+    transition: color 0.10s ease-in-out;
 }
 
 body p {
 
     font-size: 18px;
-    position: relative;
     text-align: center;
     color: white;
     font-family: 'Comfortaa', sans-serif;

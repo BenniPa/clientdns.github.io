@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+:root {
+
+    --transition: color 0.10s ease-in-out;
+}
+
 body {
 
     background-color: rgba(40, 40, 40, 1);
@@ -7,62 +12,56 @@ body {
 
 body h1 {
 
+    text-align: center;
     font-size: 30px;
+    color: white;
     margin-top: 250px;
     margin-bottom: 50px;
-    text-align: center;
-    color: white;
     font-family: 'Comfortaa', sans-serif;
 }
 
 a {
 
     font-size: 18px;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-family: 'Comfortaa', sans-serif;
 }
 
 .github:hover {
 
-    color: #161b22;
-    transition: color 0.10s ease-in-out;
-}
-
-.germany:hover {
-
-    color: #6F4E37;
-    transition: color 0.10s ease-in-out;
+    color: #388bfd;
+    transition: var(--transition);
 }
 
 .minecraft:hover {
 
     color: #75ad47;
-    transition: color 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .network:hover {
 
     color: #5555ff;
-    transition: color 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .java:hover {
 
     color: #f8981d;
-    transition: color 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .spigot:hover {
 
     color: #e39a0d;
-    transition: color 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .bungeecord:hover {
 
     color: #d5b754;
-    transition: color 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 body p {

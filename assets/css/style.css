@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root {
+
+    --transition: color 0.10s ease-in-out;
+}
+
+body {
+
+    background-color: rgba(40, 40, 40, 1);
+}
+
+body h1 {
+
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+a {
+
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.github:hover {
+
+    color: #388bfd;
+    transition: var(--transition);
+}
+
+.minecraft:hover {
+
+    color: #75ad47;
+    transition: var(--transition);
+}
+
+.network:hover {
+
+    color: #5555ff;
+    transition: var(--transition);
+}
+
+.java:hover {
+
+    color: #f8981d;
+    transition: var(--transition);
+}
+
+.spigot:hover {
+
+    color: #e39a0d;
+    transition: var(--transition);
+}
+
+.bungeecord:hover {
+
+    color: #d5b754;
+    transition: var(--transition);
+}
+
+body p {
+
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body header ::selection {
+
+    color: white;
+    background-color: gray;
+}
+
+body ::selection {
+
+    color: black;
+    background-color: white;
+}

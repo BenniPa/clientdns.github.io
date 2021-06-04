@@ -3,6 +3,7 @@
 :root {
 
     --transition: color 0.10s ease-in-out;
+    --font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -17,7 +18,7 @@ body h1 {
     color: white;
     margin-top: 250px;
     margin-bottom: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
 }
 
 a {
@@ -25,7 +26,7 @@ a {
     font-size: 18px;
     color: whitesmoke;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
 }
 
 body p {
@@ -33,7 +34,7 @@ body p {
     font-size: 18px;
     text-align: center;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
 }
 
 /* Hover */
@@ -41,35 +42,35 @@ body p {
 .github:hover {
 
     color: #388bfd;
-    transition: var(--transition);
+    text-decoration: underline;
 }
 
 .minecraft:hover {
 
     color: #75ad47;
-    transition: var(--transition);
+    text-decoration: underline;
 }
 
 .network:hover {
 
+
     color: #5555ff;
-    transition: var(--transition);
+    text-decoration: underline;
 }
 
 .spigot:hover {
 
     color: #e39a0d;
-    transition: var(--transition);
+    text-decoration: underline;
 }
 
 .bungeeCord:hover {
 
     color: #d5b754;
-    transition: var(--transition);
+    text-decoration: underline;
 }
 
 /* Selection */
-
 body header ::selection {
 
     color: white;
@@ -85,40 +86,30 @@ body ::selection {
 /* Focus */
 .github:focus {
 
-    opacity: 75%;
     color: #388bfd;
-    text-decoration: underline;
-    --transition: opacity 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .minecraft:focus {
 
-    opacity: 75%;
     color: #75ad47;
-    text-decoration: underline;
-    --transition: opacity 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .network:focus {
 
-    opacity: 75%;
     color: #5555ff;
-    text-decoration: underline;
-    --transition: opacity 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .spigot:focus {
 
-    opacity: 75%;
     color: #e39a0d;
-    text-decoration: underline;
-    --transition: opacity 0.10s ease-in-out;
+    transition: var(--transition);
 }
 
 .bungeeCord:focus {
 
-    opacity: 75%;
     color: #d5b754;
-    text-decoration: underline;
-    --transition: opacity 0.10s ease-in-out;
+    transition: var(--transition);
 }

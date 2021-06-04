@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
 
@@ -17,7 +17,7 @@ body h1 {
     color: white;
     margin-top: 250px;
     margin-bottom: 50px;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
     font-size: 18px;
     color: whitesmoke;
     text-decoration: none;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .github:hover {
@@ -63,7 +63,7 @@ body p {
     font-size: 18px;
     text-align: center;
     color: white;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body header ::selection {

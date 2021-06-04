@@ -46,12 +46,6 @@ a {
     transition: var(--transition);
 }
 
-.java:hover {
-
-    color: #f8981d;
-    transition: var(--transition);
-}
-
 .spigot:hover {
 
     color: #e39a0d;

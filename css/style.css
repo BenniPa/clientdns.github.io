@@ -28,6 +28,16 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+body p {
+
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hover */
+
 .github:hover {
 
     color: #388bfd;
@@ -52,19 +62,13 @@ a {
     transition: var(--transition);
 }
 
-.bungeecord:hover {
+.bungeeCord:hover {
 
     color: #d5b754;
     transition: var(--transition);
 }
 
-body p {
-
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
+/* Selection */
 
 body header ::selection {
 
@@ -76,4 +80,45 @@ body ::selection {
 
     color: black;
     background-color: white;
+}
+
+/* Focus */
+.github:focus {
+
+    opacity: 75%;
+    color: #388bfd;
+    text-decoration: underline;
+    --transition: opacity 0.10s ease-in-out;
+}
+
+.minecraft:focus {
+
+    opacity: 75%;
+    color: #75ad47;
+    text-decoration: underline;
+    --transition: opacity 0.10s ease-in-out;
+}
+
+.network:focus {
+
+    opacity: 75%;
+    color: #5555ff;
+    text-decoration: underline;
+    --transition: opacity 0.10s ease-in-out;
+}
+
+.spigot:focus {
+
+    opacity: 75%;
+    color: #e39a0d;
+    text-decoration: underline;
+    --transition: opacity 0.10s ease-in-out;
+}
+
+.bungeeCord:focus {
+
+    opacity: 75%;
+    color: #d5b754;
+    text-decoration: underline;
+    --transition: opacity 0.10s ease-in-out;
 }
